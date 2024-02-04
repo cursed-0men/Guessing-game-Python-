@@ -9,9 +9,9 @@ The computer randomly selects a number between 1 and 10, and the player has to g
 4. The player continues to guess until the correct number is found.
 
 # Sample Output
-guess a number(b/w 1-10) = 5
-guess is small, enter a larger number
-guess a number(b/w 1-10) = 8
-guess is large, enter a smaller number
-guess a number(b/w 1-10) = 7
-BINGO!!! - Correct guess
+-> guess a number(b/w 1-10) = 5
+-> guess is small, enter a larger number
+-> guess a number(b/w 1-10) = 8
+-> guess is large, enter a smaller number
+-> guess a number(b/w 1-10) = 7
+-> BINGO!!! - Correct guess
