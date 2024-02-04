@@ -5,8 +5,12 @@ n = random.randint(1,10)
 
 l = 1
 h = 10
+attempts = 0
+
 while l <= h:
   guess = int(input("Enter number(b/w 1-10) : "))
+  attempts += 1
+  
   if guess < n:
     print("Your guess is small, Enter a larger number : ")
     l = guess + 1
@@ -14,6 +18,6 @@ while l <= h:
     print("guess is large,enter a smaller number")
             h = guess - 1
   else:
-            print("BINGO!!!-Correct guess")
+            print(f"BINGO!!!-Correct guess in {attempts} attempts")
             break
     
