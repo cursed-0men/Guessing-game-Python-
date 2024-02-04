@@ -7,6 +7,7 @@ The computer randomly selects a number between 1 and 10, and the player has to g
 2. The player is prompted to guess the number.
 3. Based on the guess, the program provides feedback whether the guess is too small or too large.
 4. The player continues to guess until the correct number is found.
+5. Program also displays the number of attempts palyer took to guess the correct number.
 
 # Sample Output
 1. guess a number(b/w 1-10) = 5
@@ -14,4 +15,4 @@ The computer randomly selects a number between 1 and 10, and the player has to g
 3. guess a number(b/w 1-10) = 8
 4. guess is large, enter a smaller number
 5. guess a number(b/w 1-10) = 7
-6. BINGO!!! - Correct guess
+6. BINGO!!! - Correct guess in 3 attempts
